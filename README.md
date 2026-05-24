@@ -6,7 +6,30 @@ Repositório do projeto da matéria de Interação Humanocomputador pelo grupo:
 - Pietro Caffettani              10425628
 
 ---
-
+## 📂 Estrutura do projeto
+```text
+Projeto/
+├── backend/                    # Servidor API construído com FastAPI
+│   ├── routers/                # Rotas da aplicação (End-points/APIs)
+│   ├── database.py             # Configuração e conexão com o Banco de Dados (SQLAlchemy)
+│   ├── educafree.db            # Banco de dados local SQLite
+│   ├── main.py                 # Ponto de entrada (inicialização do FastAPI)
+│   ├── models.py               # Definição das tabelas do banco de dados (ORM)
+│   ├── requirements.txt        # Dependências do Python (pip)
+│   ├── seed_data.py            # Script para popular o banco de dados inicialmente
+│   └── venv/                   # Ambiente virtual Python (ignorado no Git)
+│
+├── frontend/                   # Interface do Usuário (UI) construída com Vite
+│   ├── guidelines/             # Manuais, guias de estilo ou paleta de cores
+│   ├── src/                    # Código-fonte principal do React/TypeScript
+│   ├── ATTRIBUTIONS.md         # Créditos de mídias, ícones ou fontes utilizadas
+│   ├── index.html              # Ponto de entrada HTML do Vite
+│   ├── package.json            # Dependências e scripts do Node.js
+│   ├── postcss.config.mjs      # Configuração de pós-processamento de CSS (Tailwind)
+│   └── vite.config.ts          # Configurações de compilação do Vite
+│
+└── README.md                   # Documentação principal do projeto
+```
 # Link para acesso no Figma
 
 Para acessar o site [EducaFree](https://www.figma.com/make/smVzaMCE9ozkIWcL2OPZon/EducaFree?t=gcKgXdCZFFirg1Au-20&fullscreen=1)
