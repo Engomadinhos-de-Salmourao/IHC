@@ -9,7 +9,7 @@ Repositório do projeto da matéria de Interação Humanocomputador pelo grupo:
 
 # Link para acesso no Figma
 
-Para acessar o site [EducaFree](www.figma.com/make/smVzaMCE9ozkIWcL2OPZon/EducaFree?t=gcKgXdCZFFirg1Au-20&fullscreen=1)
+Para acessar o site [EducaFree](https://www.figma.com/make/smVzaMCE9ozkIWcL2OPZon/EducaFree?t=gcKgXdCZFFirg1Au-20&fullscreen=1)
 
 ---
 # Guia de Inicialização Rápida
