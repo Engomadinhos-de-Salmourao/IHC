@@ -1,0 +1,39 @@
+# Dependências (Nunca envie para o GitHub)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Arquivos de Build / Produção
+dist/
+dist-ssr/
+build/
+.cache/
+.parcel-cache/
+
+# Arquivos de log de erros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variáveis de ambiente / Credenciais (Segurança)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Configurações do VS Code ou outros editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
